@@ -16,7 +16,7 @@ Guide on how to cutomize the cursor
 * A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
 {:toc}
 
-# Create a new cursor!
+# Create a new cursor
 
 To start, make sure debug cursor is on or enable it by running ``/kiwidebug``, this is important to aligning the position of the image.
 
@@ -60,7 +60,7 @@ Create as many layers as you want, however the more layers the less performance 
 
 ![UnallignedCursor](https://raw.githubusercontent.com/TextibIe/kiwicursor/refs/heads/main/assets/images/unallignedcursor.png)
 
-The cursor above is not alligned with the mouse position, to fix this change the size, rotation, or position of the layers in your cursor, the value for the default cursor is ``{-0.35, -0.1}``, after that you should be finished with your cursor!
+The cursor above is not alligned with the mouse position, to fix this change the size, rotation, or position of the layers in your cursor, the value for the default cursor is ``{-0.35, -0.1}``, after that you should be finished with your cursor. **Make sure the cursors tip is at the center of the green dot!**
 
 # Create a drag object
 
