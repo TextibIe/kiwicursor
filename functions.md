@@ -5,6 +5,8 @@ description: 🥝 KiwiCursor
 light_mode: false
 ---
 
+{:toc}
+
 Functions are easy ways to interact with the cursor, does not include [Sub-Modules](./submodules.html)
 
 > [Go to home page](./)
