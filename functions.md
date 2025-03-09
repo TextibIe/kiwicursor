@@ -5,7 +5,7 @@ description: 🥝 KiwiCursor
 light_mode: false
 ---
 
-# Functions
+Functions are easy ways to interact with the cursor, does not include [Sub-Modules](./submodules.html)
 
 > [Go to home page](./)
 
@@ -19,7 +19,7 @@ light_mode: false
 
 [RBXScriptSignals](https://create.roblox.com/docs/reference/engine/datatypes/RBXScriptSignal) used to detect when a value in KiwiCursor (such as ``Kiwi.Values``) changes
 
-### Example:
+### Example
 
 ```lua
 Kiwi.Changed.InScreen:Connect(function()
@@ -257,5 +257,3 @@ Connection.VisibleChanged:Connect(function(visible)
   print(visible)
 end)
 ```
-
-> [Go to home page](./)
