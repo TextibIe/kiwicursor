@@ -7,8 +7,6 @@ light_mode: false
 
 Guide on how to cutomize the cursor
 
-> ⚠️ If you are still having issues make sure to open a Github [Issues](https://github.com/TextibIe/kiwicursor/issues).
-
 > [Go to home page](./)
 
 # Table of Contents
