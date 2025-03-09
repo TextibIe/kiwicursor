@@ -2,6 +2,7 @@
 layout: default
 title: 🥝 KiwiCursor
 description: A customizable and feature packed cursor for Roblox
+light_mode: false
 ---
 
 ![KiwiCursor001](https://raw.githubusercontent.com/TextibIe/kiwicursor/refs/heads/main/assets/images/KiwiCursor001.png)
