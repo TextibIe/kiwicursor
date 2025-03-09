@@ -1,2 +1,1 @@
-# KiwiCursor
-wip
+# [KiwiCursor Documentation](https://textibie.github.io/kiwicursor/)
