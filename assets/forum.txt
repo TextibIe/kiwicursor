@@ -1,0 +1,49 @@
+<div align="center">
+
+![KiwiCursor001|690x260](https://raw.githubusercontent.com/TextibIe/kiwicursor/refs/heads/main/assets/images/KiwiCursor001.png)
+# [💾 GitHub](https://github.com/TextibIe/kiwicursor) | [📖 Documentation](https://textibie.github.io/kiwicursor/) | [ 🥝 Install](https://create.roblox.com/store/asset/119549435630614/KiwiCursor)
+</div>
+
+***
+
+KiwiCursor is a heavily customizable mouse that also has a ton of useful features, it also contains features not added to the current mouse such as better billboard support, better dragging, 3D gui functions, and more.
+
+# 🖥️ Mouse:
+***
+The mouse can be customized however you like by layering multiple images, creating unlimited custom mouses, or changing the layers with the following options:
+- Unlimited Icons
+- Icon Priority (Set the render priority of mouse icons)
+- Icon Layers (Stack images to create a single mouse)
+- Rotation, Position, Size, Color, Image
+- Display Order (Set GUI to display over the mouse)
+- Mouse Interpolation (Tween the mouse's position)
+- Always Update Toggle (Re-render mouse every frame)
+
+# ✨ Gui:
+***
+The mouse comes with SurfaceGui and BillboardGui built in and can support numerous useful features like:
+- Localized Positions for 3D Gui (Get a 3D vector translated to an absolute position)
+- Gui Collisions (Get touching GuiObjects)
+- Revamped 3D MaxDistance and CurrentDistance
+- Draggable GuiObjects and DragDetector support
+- 23 Unique Signals/Connections 
+
+# Contributors
+***
+Major contributors
+@Textible  -  KiwiCursor
+@jaipack17  -  Math behind ``GetGuiCorners()``
+@stravant - GoodSignal package
+
+Wanting to try KiwiCursor? Get started [here](https://create.roblox.com/store/asset/119549435630614/KiwiCursor), there is not a video tutorial right now but I suggest reading the [documentation](https://textibie.github.io/kiwicursor/). (Its also featured directly in the file)
+
+> ⚠️ Since this tool is in beta, report bugs or make suggestions in github [issues](https://github.com/TextibIe/kiwicursor/issues). I will try to respond to questions as soon as I can, make sure to suggest some features you would like to see.
+
+thanks for reading and have fun with this module! 🥝 
+
+[poll type=regular results=on_vote public=true chartType=bar]
+# Would you consider this useful?
+* Yes
+* Maybe
+* No
+[/poll]
