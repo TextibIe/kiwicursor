@@ -2,29 +2,27 @@
 layout: default
 ---
 
-Welcome to **KiwiCursor**
-
-# Installation
+# Setup
 
 > ⚠️ This module requires some coding knowledge!
 
-You can get the model here(link) or download the files in the [github]([link](https://github.com/TextibIe/kiwicursor))
-
-Place the module anywhere, you can start using it by requiring it:
 ```lua
 local KiwiCursor = require(game[Parent].KiwiCursor)
 ```
 
-To customize or use functions, read the documentation below.
+Place the module anywhere, you can start using it by [requiring](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) it. To customize or use functions, read through the documentation below.
 
 # Documentation
 
-### [Customize](./customize.html) 
-- Customize the cursor
-### [Functions](./functions.html) 
-- All functions
+### [Customize](./customize.html)
+Customize the cursor
+
+### [Functions](./functions.html)
+Functions documentation
+
 ### [GuiDistance](./guidistance.html) 
-- Revamped Gui.MaxDistance
+Revamped Gui.MaxDistance
+> ⚠️ If you use MaxDistance then you will need to implement this or disable it
 
 # Contributing
 
