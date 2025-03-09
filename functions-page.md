@@ -9,7 +9,7 @@ Functions are easy ways to interact with the cursor, does not include [Sub-Modul
 
 > [Go to home page](./)
 
-# Table Of Contents
+# Table of Contents
 
 * A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
 {:toc}
