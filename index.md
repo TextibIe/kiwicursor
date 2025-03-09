@@ -4,7 +4,7 @@ title: 🥝 KiwiCursor
 description: A customizable and feature packed cursor for Roblox
 ---
 
-![KiwiCursor001](https://github.com/TextibIe/kiwicursor/blob/78ed9ac02d83706f13def763206a591838bfe8ad/assets/images/KiwiCursor001.png)
+![KiwiCursor001](https://raw.githubusercontent.com/TextibIe/kiwicursor/refs/heads/main/assets/images/KiwiCursor001.png)
 
 # Setup
 
