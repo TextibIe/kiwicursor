@@ -9,4 +9,4 @@ light_mode: false
 
 Guide on how to cutomize the cursor
 
-> [Go to home page](./)
+> [Go to home page](main)
