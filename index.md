@@ -11,10 +11,8 @@ light_mode: false
 
 > ⚠️ This module requires some coding knowledge!
 
-```luau
+```lua
 local KiwiCursor = require([Parent].KiwiCursor) -- Require the module
-KiwiCursor.Settings.Size = 200 -- Change cursor size
-local Connection = KiwiCursor.ConnectObject(GuiObject) -- Connect a GuiObject
 ```
 
 Place the module anywhere, you can start using it by [requiring](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) it. To customize or use functions, read through the documentation below.
