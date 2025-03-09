@@ -58,7 +58,7 @@ After your done creating a new cursor, create the layers of the cursor in the ``
 
 Create as many layers as you want, however the more layers the less performance (you should only be worried if you have 50+ layers). Now playtest and make sure your cursor is enabled and has a priority higher than any other enabled cursor, same priority cursors do not work well so make sure its unique.
 
-![UnallignedCursor](https://i.ibb.co/1fW0gBbc/Screenshot-2025-03-09-at-7-27-29-AM.png)
+![UnallignedCursor](https://raw.githubusercontent.com/TextibIe/kiwicursor/refs/heads/main/assets/images/unallignedcursor.png)
 
 The cursor above is not alligned with the mouse position, to fix this change the size, rotation, or position of the layers in your cursor, the value for the default cursor is ``{-0.35, -0.1}``, after that you should be finished with your cursor!
 
