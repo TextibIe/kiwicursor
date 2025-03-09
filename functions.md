@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 🥝 KiwiCursor
-description: Documentation > Functions
+title: Functions
+description: 🥝 KiwiCursor
 ---
 
 # [Go back](./)
