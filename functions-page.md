@@ -24,15 +24,13 @@ Functions are easy ways to interact with the cursor, does not include [Sub-Modul
 
 [RBXScriptSignals](https://create.roblox.com/docs/reference/engine/datatypes/RBXScriptSignal) used to detect when a value in KiwiCursor (such as ``Kiwi.Values``) changes
 
-### Example
-
 ```lua
 Kiwi.Changed.InScreen:Connect(function()
   print(Kiwi.Values.InScreen)
 end)
 ```
 
-### Guide
+**Guide**
 
 ```lua
 -- List
@@ -57,8 +55,6 @@ Kiwi.Changed = {
 
 Accounts for ancestor's visibility, doesn't account for blocking gui or offscreen
 
-### Example
-
 ```lua
 local Visible, GuiParent = Kiwi.GuiVisible(GuiObject)
 if Visible then
@@ -71,11 +67,8 @@ end
 > Parameters: **``(SurfaceGui: SurfaceGui, Value: CFrame)``**
 > 
 > Returns: **``(AbsolutePosition: Vector2)``**
->
 
 Localizes the CFrame to the SurfaceGui as an AbsolutePosition
-
-### Example
 
 ```lua
 Part:GetPropertyChangedSignal("CFrame"):Connect(function()
@@ -96,8 +89,6 @@ Localizes the AbsolutePosition to the BillboardGui, any objects covering the bil
 
 - IgnoreCovering will ignore covering parts
 
-### Example
-
 ```lua
 local FrameOnBillboard = Kiwi.Vector2ToBillboardGui(BillboardGui, Frame.AbsolutePosition)
 Frame.BackgroundColor3 = (FrameOnBillboard and GreenColor) or (RedColor)
@@ -110,8 +101,6 @@ Frame.BackgroundColor3 = (FrameOnBillboard and GreenColor) or (RedColor)
 > Returns: **``(HoveringOverButton: boolean)``**
 
 Checks if hovering over a button
-
-### Example
 
 ```lua
 local Hovering = Kiwi.HoveringOverButton()
@@ -131,8 +120,6 @@ end
 Updates the icon, settings, and position of mouse
 
 - QuickUpdate will skip mouse interpolation
-
-### Example
 
 ```lua
 Kiwi.Cursors.Grab.Enabled = true
@@ -191,8 +178,6 @@ Connect any GuiObjects, more consistent with cursor
 
 - 	Disconnect: Function ``Remove connections``
 
-### Example
-
 ```lua
 local Connection = Kiwi.ConnectObject(GuiObject)
 Connection.MiddleClick:Connect(function()
@@ -223,8 +208,6 @@ Connect any BillboardGui, more consistent with cursor
   
 - Disconnect: Function ``Removes connections``
 
-### Example
-
 ```lua
 local Connection = Kiwi.ConnectBillboard(BillboardGui)
 Connection.VisibleChanged:Connect(function(visible)
@@ -253,8 +236,6 @@ Connect any SurfaceGui, more consistent with cursor
 - GetGuiPosition: Function ``Gets 3D position from SurfaceGui.Face``
   
 - Disconnect: Function ``Removes connections``
-
-### Example
 
 ```lua
 local Connection = Kiwi.ConnectSurface(SurfaceGui)
