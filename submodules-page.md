@@ -5,12 +5,14 @@ description: 🥝 KiwiCursor
 light_mode: false
 ---
 
-* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
-{:toc}
-
 Functions within sub-modules, you can find these modules below the main KiwiCursor
 
 > [Go to home page](./)
+
+# Table Of Contents
+
+* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
+{:toc}
 
 # KiwiDistance
 
