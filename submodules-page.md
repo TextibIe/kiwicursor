@@ -34,23 +34,11 @@ Current distance from GUI, calculated from ``SurfaceGui - (FaceofGuiPosition - C
 
 ### KiwiDistance.AddSignal()
 
-> Parameters: **``(Gui: Gui, VisibleChanged: Signal, DistanceChanged: Signal)``**
-> 
-> Returns: None
->
-> Notes: **Internal function only**
-
-Used by KiwiCursor for connecting ``.ConnectSurface()`` and ``.ConnectBillboard()``
+Private function for connecting ``.ConnectSurface()`` and ``.ConnectBillboard()``
 
 ### KiwiDistance.RemoveSignal()
 
-> Parameters: **``(Gui: Gui)``**
-> 
-> Returns: None
->
-> Notes: **Internal function only**
-
-Used by KiwiCursor for removing ``Kiwi.ConnectSurface()`` and ``Kiwi.ConnectBillboard()`` connections
+Private function for removing ``Kiwi.ConnectSurface()`` and ``Kiwi.ConnectBillboard()`` connections
 
 # KiwiCollisions
 
