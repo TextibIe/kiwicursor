@@ -3,6 +3,3 @@ description: A customizable and feature packed cursor for Roblox
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
-
-kramdown:
-  toc_levels: 2..3
