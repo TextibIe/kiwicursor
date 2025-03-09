@@ -23,11 +23,10 @@ Place the module anywhere, you can start using it by [requiring](https://create.
 Customize the cursor
 
 ### 🥝 [Functions](./functions.html)
-Functions documentation
+Function and signal documentation
 
-### 🥝 [GuiDistance](./guidistance.html) 
-Revamped Gui.MaxDistance
-> ⚠️ If you use MaxDistance then you will need to implement this or disable it
+### 🥝 [Sub-Modules](./submodules.html) 
+Documentation for modules underneath the main module
 
 # Contributing
 
