@@ -5,12 +5,14 @@ description: 🥝 KiwiCursor
 light_mode: false
 ---
 
-* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
-{:toc}
-
 Functions are easy ways to interact with the cursor, does not include [Sub-Modules](./submodules-page.html)
 
 > [Go to home page](./)
+
+# Table Of Contents
+
+* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
+{:toc}
 
 # Kiwi.Changed
 
