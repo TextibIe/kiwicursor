@@ -19,13 +19,13 @@ Place the module anywhere, you can start using it by [requiring](https://create.
 
 # Documentation
 
-### 🥝 [Customize](./customize.html)
+### 🥝 [Customize](./site/pages/customize.html)
 Customize the cursor
 
-### 🥝 [Functions](./functions.html)
+### 🥝 [Functions](./site/pages/functions.html)
 Function and signal documentation
 
-### 🥝 [Sub-Modules](./submodules.html) 
+### 🥝 [Sub-Modules](./site/pages/submodules.html) 
 Documentation for modules underneath the main module
 
 # Contributing
