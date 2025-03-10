@@ -19,8 +19,8 @@ Place the module anywhere, you can start using it by [requiring](https://create.
 
 # Documentation
 
-### 🥝 [Customize](./customize-page.html)
-Customize the cursor
+### 🥝 [Customize](./guide-page.html)
+Guides for KiwiCursor, such as customization
 
 ### 🥝 [Functions](./functions-page.html)
 Function and signal documentation
