@@ -19,7 +19,7 @@ Place the module anywhere, you can start using it by [requiring](https://create.
 
 # Documentation
 
-### 🥝 [Customize](./guide-page.html)
+### 🥝 [Tutorial](./guide-page.html)
 Guides for KiwiCursor, such as customization
 
 ### 🥝 [Functions](./functions-page.html)
