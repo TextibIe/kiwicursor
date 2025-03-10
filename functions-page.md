@@ -126,6 +126,21 @@ Kiwi.Cursors.Grab.Enabled = true
 Kiwi.UpdateMouse()
 ```
 
+# Kiwi.SetUpdateConnections()
+
+> Parameters: **``( (Optional) QuickUpdate: boolean)``**
+> 
+> Returns: **``(HoveringOverButton: boolean)``**
+>
+> Note: **Only when you change ``Kiwi.Settings.AlwaysUpdate`` should this be used**
+
+Resets the update connections, updating AlwaysUpdate
+
+```lua
+Kiwi.Settings.AlwaysUpdate = true
+Kiwi.SetUpdateConnections()
+```
+
 # Kiwi.ConnectObject()
 
 > Parameters: **``(GuiObject: GuiObject)``**
@@ -204,6 +219,8 @@ Connect any BillboardGui, more consistent with cursor
   
 **Functions**
 
+- SetOverride: Function ``Sets the override state, will not change the actual visibility of the gui, will still update VisibleChanged however``
+
 - GetGuiPosition: Function ``Gets 3D position,  accounts for all offsets besides for ExtentsOffset and SizeOffset``
   
 - Disconnect: Function ``Removes connections``
@@ -232,6 +249,8 @@ Connect any SurfaceGui, more consistent with cursor
 - DistanceChanged: Signal ``Distance from gui changed``
   
 **Functions**
+
+- SetOverride: Function ``Sets the override state, will not change the actual visibility of the gui, will still update VisibleChanged however``
 
 - GetGuiPosition: Function ``Gets 3D position from SurfaceGui.Face``
   
