@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Customizion
+title: Tutorial
 description: 🥝 KiwiCursor
 light_mode: false
 ---
 
-Guide on how to cutomize the cursor
+Guides on how to use/customize KiwiCursor
 
 > [Go to home page](./)
 
@@ -108,3 +108,9 @@ end)
 ```
 
 If your using a ``UIDragDetector`` (Gui) or ``DragDetector`` (Part) then you can use the naive functions.
+
+# Create linked cursors
+
+To create a linked cursor, go to the ``Part`` or ``GuiObject`` you want to add the linked cursor to, you can only add linked cursors to these. Its also important that your cursor's priority is high enough to be shown, as it still won't be shown if another cursor is enabled. I recommend not using the default cursors for this as they are overrided by the module, you can create custom cursors by following the tutorial above.
+
+Go to the properties tab of the object and scroll down until you reach attributes, add a string attribute called ``Kiwi_LinkCursor``, if you changed ``Kiwi.Settings.LinkCursorName`` change it to that name, then put the name of the cursor in the attribute and you're done!
