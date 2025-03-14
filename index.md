@@ -5,7 +5,7 @@ description: A customizable and feature packed cursor for Roblox
 light_mode: false
 ---
 
-![KiwiCursor001](https://raw.githubusercontent.com/TextibIe/kiwicursor/refs/heads/main/assets/images/KiwiCursor002.png)
+![KiwiCursor001](https://raw.githubusercontent.com/TextibIe/kiwicursor/refs/heads/main/assets/images/KiwiCursor003.png)
 
 # Setup
 
