@@ -103,6 +103,36 @@ for index,value in pairs(Hits) do
 end
 ```
 
+### KiwiCollisions.GetClosestCorners()
+
+> Parameters: **``(Corners: KiwiCollisions.GetGuiCorners(), Position: Vector2)``**
+> 
+> Returns: **``(Corners: {{Corner: string, Distance: number}})``**
+>
+> Notes: **Use ``KiwiCollisions.GetGuiCorners()`` to get the corners of a gui object**
+
+Returns the a sorted list based on distance to corner
+
+### KiwiCollisions.GetClosestEdge()
+
+> Parameters: **``(GuiObject: GuiObject, Position: Vector2)``**
+> 
+> Returns: **``"Top" | "Bottom" | "Right" | "Left"``**
+>
+> Notes: **Does not work with rotated objects, will remove the rotation of that object if used**
+
+Will return the closest edge/side of the GuiObject
+
+### KiwiCollisions.GuiPositionInCenter()
+
+> Parameters: **``(GuiObject: GuiObject, Position: Vector2, DistanceFromEdge: number)``**
+> 
+> Returns: **``(InCenter: boolean, OnCorner: string)``**
+>
+> Notes: **OnCorner will "" unless under 2x the DistanceFromEdge to a corner**
+
+Gets if the position is within center, depending on distance to edge
+
 # KiwiCommand
 
 > Internal: Yes
