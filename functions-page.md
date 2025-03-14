@@ -38,6 +38,7 @@ Kiwi.Changed = {
 	InScreen = signal.new(),    -- Fired when (Kiwi.Values.InScreen) changes
 	Hovering = signal.new(),    -- Fired when (Kiwi.Values.Hover) changes
 	Draggable = signal.new(),   -- Fired when (Kiwi.Values.Draggable) changes
+	Resizable = signal.new(), 	-- Fired when (Kiwi.Values.Resizable) changes
 	Mouse = signal.new(),       -- Fired when (Kiwi.Values.Position) changes
 	
 	-- \\ Gui
@@ -181,13 +182,23 @@ Connect any GuiObjects, more consistent with cursor
   
 **Drag**
 
-- Draggable: Boolean ``Set drag state``
+- Draggable: Boolean ``Set drag state, sends data to drag signals``
 
 - DragStarted: Signal ``Returns: (DragOffset: UDim2.fromOffset)``
   
 - DragMoved: Signal ``Returns: (LocalPosition: UDim2.fromOffset, DragOffset: UDim2.fromOffset)``
 
 - DragEnded: Signal
+
+**Resize**
+
+- Resizable: Boolean ``Set resize state, sends data to resize signals``
+
+- ResizeStarted: Signal ``Returns: (ResizeEdge: string)``
+
+- ResizeMoved: Signal ``Returns: (NewSize: Vector2, NewPosition: Vector2)``
+
+- ResizeEnded: Signal
 
 **Functions**
 
